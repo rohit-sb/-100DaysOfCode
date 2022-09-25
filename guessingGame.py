@@ -1,3 +1,4 @@
+#this version is a bit faulty
 import random
 while True:
     number=random.randrange(1,25)
@@ -20,6 +21,7 @@ while True:
             print("You have", (n-chanceTaken),"remaining Life.\n")
             continue
     if chanceTaken>5:
+        #this if condition is faulty
         print("You ran out of Life.")
         print("The number was: ",number,"\n")
     looper=input("Enter 'C' to play again and 'E' to exit: ")
